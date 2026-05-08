@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 
 <html>
 
@@ -18,10 +17,10 @@
 	<input type="number" id="item-price-input" placeholder="Item Price">
 	<br><br>
 	
-	<button id="add">Add</button>
+	<button id="add" aria-role="button">Add</button>
 	<br><br>
 
-	<table border="1" id="table">
+	<table border="1" id="table" aria-role="table">
 		<thead>
 			<tr>
 				<th>Item</th>
@@ -31,13 +30,9 @@
 		<tbody id="table-body">
 			
 		</tbody>
-		<tfoot>
-			<tr>
-				<td><b>Grand Total</b></td>
-				<td id="total">0</td>
-			</tr>
-		</tfoot>
 	</table>
+
+	<h3 id="total">Grand Total: 0</h3>
 	
     <script type="text/javascript" src="./script.js">
 </script>
